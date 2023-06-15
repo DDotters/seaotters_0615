@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Activity Page</title>
+    <style>
+        body{
+            background-color: #EFEEE8;
+        }
+        .header{
+            position: fixed;
+            top: 0;  left: 0;
+            box-sizing: border-box;
+            width: 100%; height: 15%;
+            border-bottom: 1px solid black;
+            z-index: 20;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            position: relative;
+            left: 2%;
+            box-sizing: border-box;
+        }
+        .insta{
+            position: relative;
+            right: 2%;
+        }
+        .container{
+            position: fixed;
+            top:15%; left:0;
+            box-sizing: border-box;
+            width: 100%; height: 85%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .map{
+            position: fixed;
+            left:5%;
+            box-sizing: border-box;
+            width: 65%; height: 60%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="photo/logo.png" width="10%">
+            </a>
+        </div>
+        <div class="insta">
+            <a href="https://www.instagram.com/hy_j_121/">
+                <img src="photo/instagram.png" width="36px">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="map"></div>
+    </div>
+</body>
+</html>
